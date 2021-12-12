@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+    <div class="form-container">
+    <div class="header"><h2>Registration form for Geekster</h2>
+    </div>
+    <hr/>
+    <form>
+        <h4>Personal Info</h4>
+        <input type="text" name="f_name" class="name" placeholder="First Name">
+        <input type="text" name="l_name" class="name"  placeholder="Last Name">
+        <input type="email" class="input" name="Email" placeholder="Email">
+        <input type="number" class="input" name="Ph_Number"placeholder="Phone Number">
+        <input type="date" class="input">
+        <input type="text" class="input" name="college_name" placeholder="College Name">
+        <input type="number" class="input" name="year of grad" placeholder="Year of Graduation">
+        Gender<input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <hr/>
+        <h4>Education Info</h4>
+        <select>
+            <option selected disabled>Select Degree</option>
+            <optgroup label="bachelor">
+                <option>B.Tech</option>
+                <option>B.E</option>
+                <option>B.Sc</option>
+            </optgroup>
+            <optgroup label="masters">
+                <option>M.tech</option>
+                <option>M.E</option>
+                <option>MA</option>
+            </optgroup>
+
+        </select>
+        <input type="text" name="" class="input" placeholder="College Name">
+        <input type="text" name="" class="input" placeholder="Year of graduation">
+        <input type="text" name="" class="input" placeholder="Percentage">
+        <input type="file">
+        <hr/>
+        <h4>Course Detais</h4>
+        <p><b>Which level do you want to enroll?</b></p>
+        <input type="checkbox">Fundamental
+        <input type="checkbox">Advance
+        <p><b>Which Course do you want to enroll</b>?</p>
+        <input type="checkbox">Web
+        <input type="checkbox">Java
+        <hr/>
+        <input type="submit" class="btn-submit" value="Apply for Admission">
+        <input type="reset" class="btn-reset"/>
+    </form>
+    </div>
+</body>
+</html>
